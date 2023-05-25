@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lardota2</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.ProductController.Get(lardota2.Contracts.User.ProductRequest)">
+             <summary>
+             Поиск продукта
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "Product":"Пылесос"
+             "ProductID":"3"
+             "id":"251"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ProductController.Delete(lardota2.Contracts.User.ProductRequest)">
+             <summary>
+             Удаление из корзины
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "Product": "Пылесос"
+             "ProductID":"222"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReviewController.Create(lardota2.Contracts.User.ReviewUserRequest)">
+             <summary>
+             Отзыв
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "UserID":"Пылесос"
+             "Rating":"2"
+             "Comment":"Пылесос не пылесосит"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReviewController.Delete(lardota2.Contracts.User.ReviewUserRequest)">
+             <summary>
+             Отзыв
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "Product":"Пылесос"
+             "ProductID":"3"
+             "id":"251"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReviewController.Update(lardota2.Contracts.User.ReviewUserRequest)">
+             <summary>
+             Отзыв
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "UserID":"2"
+             "rating": "4"
+             "Comment":"Пылесос пылесосит"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+             <summary>
+             Поиск
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             id:"251"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(lardota2.Contracts.User.GetUserResponse)">
+             <summary>
+             Поиск по ID
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             id:"222"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Add(lardota2.Contracts.User.CreateUserRequest)">
+             <summary>
+             Создание пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "userid" : "21",
+             "login1": "adsa",
+             "password1": "adaaaaa",
+             "role1": "user",
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(lardota2.Contracts.User.CreateUserRequest)">
+             <summary>
+             Обновление пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "userid" : "21",
+             "login1": "adsa",
+             "password1": "adaaaaa",
+             "role1": "user",
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+             <summary>
+             Удаление 
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             id:"11"
+             }
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>
