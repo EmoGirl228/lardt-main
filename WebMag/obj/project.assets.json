@@ -3280,19 +3280,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Виталик\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\lardt-main\\WebMag\\WebMag.csproj",
+      "projectUniqueName": "C:\\Users\\Виталик\\Desktop\\lardt-main\\WebMag\\WebMag.csproj",
       "projectName": "WebMag",
-      "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\WebMag\\WebMag.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\lardt-main\\WebMag\\obj\\",
+      "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\WebMag\\WebMag.csproj",
+      "packagesPath": "C:\\Users\\Виталик\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\WebMag\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Виталик\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3306,11 +3306,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj"
             },
-            "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj"
+            "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj": {
+              "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj"
             }
           }
         }
@@ -3343,7 +3343,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

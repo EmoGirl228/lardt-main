@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\lardt-main\\lardota2\\lardota2.csproj": {}
+    "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\lardota2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Виталик\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Виталик\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj"
+              "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj"
               }
             }
           }
@@ -77,21 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
+    "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Виталик\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Виталик\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,21 +150,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj": {
+    "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj",
+        "projectUniqueName": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj",
         "projectName": "EmoBase",
-        "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\obj\\",
+        "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj",
+        "packagesPath": "C:\\Users\\Виталик\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Виталик\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,8 +178,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj"
+              "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj"
               }
             }
           }
@@ -227,21 +227,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\lardt-main\\lardota2\\lardota2.csproj": {
+    "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\lardota2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\lardt-main\\lardota2\\lardota2.csproj",
+        "projectUniqueName": "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\lardota2.csproj",
         "projectName": "lardota2",
-        "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\lardota2\\lardota2.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\lardt-main\\lardota2\\obj\\",
+        "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\lardota2.csproj",
+        "packagesPath": "C:\\Users\\Виталик\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Виталик\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -255,14 +255,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\Domain\\Domain.csproj"
+              "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj"
+              "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj": {
+                "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj"
               }
             }
           }
@@ -317,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
