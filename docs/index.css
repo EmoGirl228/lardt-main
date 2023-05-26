@@ -1,0 +1,68 @@
+h1 {
+ color: red;
+}
+
+body{
+ margin: 0;
+}
+.header {
+ padding: 80px;
+ text-align:center;
+ background:#1abc9c;
+ color: white;
+}
+.navbar {
+ overflow:hidden;
+ background-color: #333;
+}
+.navbar a{
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+}
+.navbar a.right{
+ float: right;
+}
+.navbar a:hover{
+ bacground-color: #ddd;
+ color: black;
+}
+.fakeimg {
+background-color #aaa;
+width: 100%;
+padding: 20px;
+}
+@media screen and (max-width: 700px) {
+.row{
+display: flex;
+ }
+@media screen and (max-width: 700px) {
+.row{
+flex-direction:column;
+ }
+@media screen and(max-width:400px) {
+.navbar a{
+float: none;
+width:100%;
+}
+}
+.side {
+background-color: #f1f1f1;
+padding: 20px;
+}
+.main {
+flex:70%;
+background-color:white;
+padding:20px;
+}
+*{
+box-sizing: border-box;
+}
+.footer{
+	padding:150px;
+	text-align:center;
+	background-image: url(RUS.jpg);
+}
