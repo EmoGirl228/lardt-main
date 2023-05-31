@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wp5EZxm+MArnGxTrXyUmR2jypXH+kWSmDrHLLNMGGYbjqPSOVooJc5M1GfBbit9utnOhomn8SHh+ucs+y97ZFA==",
+  "dgSpecHash": "bw8hahze110Vj/pwJ4LTrWu2omzg96tx5D8dwpIjgiq7Ev9mjrfOczrybfkUM6UOFotVP3caE9bmQ14upO31tQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\EmoBase.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.4\\microsoft.entityframeworkcore.design.7.0.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.4\\microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
-    "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.3\\microsoft.entityframeworkcore.sqlserver.7.0.3.nupkg.sha512",
+    "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.4\\microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.15\\microsoft.entityframeworkcore.tools.6.0.15.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

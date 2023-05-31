@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8bqC5d3cBQods1rDjG/o459TmJCsONcCVDpGrb91vhljaUn1MFjn/rT8vzfmbemIAYoOAHQdWBogZb6QiKIrZw==",
+  "dgSpecHash": "d1UFIrbieqoumDiL5rrMNx+v9L0LpsG4e0YFmSgmxJXOO8cqdNUCiUe5OgyUlDzvedlh4l6elsInhQrgYlaI1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\lardota2.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.4\\microsoft.entityframeworkcore.design.7.0.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.4\\microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
-    "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.3\\microsoft.entityframeworkcore.sqlserver.7.0.3.nupkg.sha512",
+    "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.4\\microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.15\\microsoft.entityframeworkcore.tools.6.0.15.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",

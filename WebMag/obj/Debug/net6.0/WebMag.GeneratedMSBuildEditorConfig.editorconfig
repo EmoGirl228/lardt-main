@@ -36,6 +36,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Виталик/Desktop/lardt-main/WebMag/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Виталик/Desktop/lardt-main/WebMag/Pages/reg.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Виталик/Desktop/lardt-main/WebMag/Shared/MudNavLink.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE11ZE5hdkxpbmsucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Виталик/Desktop/lardt-main/WebMag/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
