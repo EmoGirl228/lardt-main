@@ -30,3 +30,14 @@ C:\Users\user\Desktop\lardt-main\WebMag\obj\Debug\net6.0\refint\WebMag.dll
 C:\Users\user\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.pdb
 C:\Users\user\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.genruntimeconfig.cache
 C:\Users\user\Desktop\lardt-main\WebMag\obj\Debug\net6.0\ref\WebMag.dll
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.csproj.AssemblyReference.cache
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.AssemblyInfoInputs.cache
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.AssemblyInfo.cs
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.csproj.CoreCompileInputs.cache
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.RazorAssemblyInfo.cache
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.RazorAssemblyInfo.cs
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.dll
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\refint\WebMag.dll
+C:\Users\Виталик\Desktop\lardt-main\WebMag\obj\Debug\net6.0\WebMag.pdb

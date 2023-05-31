@@ -1,7 +1,16 @@
 ﻿@page "/item-list"
-@inject IGoodService GoodService
+@inject IUserService GoodService
 <h3>ItemList</h3>
-
+@foreach (var good in goods)
+{
+	<h3>User: @good.Login1</h3>
+	<p>Role: @good.Role1</p>
+}
 @code {
+	private List<User> goods = new List<User>();
 
+	protected override async Task OnInitializedAsync()
+	{
+		goods = await GoodService.GetAll();
+	}
 }
