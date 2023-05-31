@@ -16,7 +16,7 @@ namespace WebMag
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddDbContext<EmoBaseContext>(options =>
+             builder.Services.AddDbContext<EmoBaseContext>(options =>
             options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=EmoBase;Trusted_Connection=true"));
             // Add services to the container.
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
