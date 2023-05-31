@@ -52,7 +52,7 @@ namespace BackendApi.Controllers
         /// </remarks>
         /// <param name="model">Пользователь</param>
         /// <returns></returns>
-       [HttpDelete]
+        [HttpDelete]
         public async Task<IActionResult> Delete(ProductRequest request)
         {
             var UserDTo = request.Adapt<User>();

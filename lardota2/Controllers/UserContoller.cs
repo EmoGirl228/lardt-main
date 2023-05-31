@@ -48,7 +48,7 @@ namespace BackendApi.Controllers
         /// <param name="model">Пользователь</param>
         /// <returns></returns>
         [HttpGet("{id}")]
-       
+
         public async Task<IActionResult> GetById(GetUserResponse response)
         {
             int UserDTo = Convert.ToInt32(response.Adapt<User>());
@@ -71,7 +71,7 @@ namespace BackendApi.Controllers
         /// <param name="model">Пользователь</param>
         /// <returns></returns>
         [HttpPost]
-        
+
         public async Task<IActionResult> Add(CreateUserRequest request)
         {
             var UserDto = request.Adapt<User>();
@@ -94,13 +94,13 @@ namespace BackendApi.Controllers
         /// <param name="model">Пользователь</param>
         /// <returns></returns>
         [HttpPut]
-        
+
         public async Task<IActionResult> Update(CreateUserRequest request)
         {
             var Userdto = request.Adapt<User>();
             await _userService.Update(Userdto);
             return Ok();
-        } 
+        }
         /// <summary>
         /// Удаление 
         /// </summary>
@@ -115,7 +115,7 @@ namespace BackendApi.Controllers
         /// <param name="model">Пользователь</param>
         /// <returns></returns>
         [HttpDelete]
-       
+
         public async Task<IActionResult> Delete(int id)
         {
             await _userService.Delete(id);

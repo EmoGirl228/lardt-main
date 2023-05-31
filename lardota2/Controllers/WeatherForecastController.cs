@@ -7,9 +7,20 @@ namespace lardota2.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private static List<string> Summaries = new()
-{
-"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching","1","1"
-};
+        {
+            "Freezing",
+            "Bracing",
+            "Chilly",
+            "Cool",
+            "Mild",
+            "Warm",
+            "Balmy",
+            "Hot",
+            "Sweltering",
+            "Scorching",
+            "1",
+            "1"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -34,7 +45,7 @@ namespace lardota2.Controllers
         {
             if (index < 0 || index >= Summaries.Count)
             {
-                return BadRequest("правильно пиши");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ");
 
             }
             Summaries[index] = name;
@@ -45,7 +56,7 @@ namespace lardota2.Controllers
         {
             if (index < 0 || index >= Summaries.Count)
             {
-                return BadRequest("правильно пиши");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ");
 
             }
             Summaries.RemoveAt(index);
@@ -58,7 +69,7 @@ namespace lardota2.Controllers
         {
             if (index < 0 || index >= Summaries.Count)
             {
-                return BadRequest("правильно пиши");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ");
 
             }
             return Ok(Summaries[index]);
@@ -92,7 +103,7 @@ namespace lardota2.Controllers
             }
             else
             {
-                return BadRequest("Некорректное значение параметра sortStrategy");
+                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ sortStrategy");
             }
         }
     }

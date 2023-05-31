@@ -23,7 +23,7 @@ namespace lardota2
             // Add services to the container.
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<IUserService, UserService>();
-            
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -33,16 +33,16 @@ namespace lardota2
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Интернет магазин lardot",
-                    Description = "Магазин dlar",
+                    Title = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ lardot",
+                    Description = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ dlar",
                     Contact = new OpenApiContact
                     {
-                        Name = "Контакт",
+                        Name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
                         Url = new Uri("https://example.com/contact")
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Лицензия",
+                        Name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
                         Url = new Uri("https://example.com/license")
                     }
 
@@ -53,7 +53,7 @@ namespace lardota2
             });
 
             var app = builder.Build();
-            
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
