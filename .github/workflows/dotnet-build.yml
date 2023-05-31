@@ -17,7 +17,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: BombKiev_API.sln
+      Solution_Name: lardota2.sln
 
     steps:
     - name: Checkout
