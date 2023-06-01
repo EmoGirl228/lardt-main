@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "d1UFIrbieqoumDiL5rrMNx+v9L0LpsG4e0YFmSgmxJXOO8cqdNUCiUe5OgyUlDzvedlh4l6elsInhQrgYlaI1Q==",
-  "success": true,
+  "dgSpecHash": "WDerjF+yvR9oSJM/SDb0h8tVFl/5TEoHqWhv03Yo4uPEjiHSludLRWFr9bkPoMUlgQWv9qAKXY5kfcOTianaag==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\lardota2\\lardota2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Виталик\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -83,5 +83,15 @@
     "C:\\Users\\Виталик\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Обнаружен цикл. \r\n  lardota2 -> EmoBase -> EmoBase.",
+      "libraryId": "EmoBase",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

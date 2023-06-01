@@ -1,0 +1,64 @@
+﻿@page "/register"
+
+@using WebMag.Auth;
+@inject IUserService UserService
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+
+<div class="row">
+    <div class="col-1g-4 offset-1g-4 pt-4 pb-4 border">
+        :       <div class="mb-3 text-center">
+            <h3>Register</h3>
+        </div>
+        <div class="mb-3">
+            <label>Nickname</label>
+            <input @bind="user.Login1" type="text" class="form-control" placeholder="Nickname" />
+        </div>
+        <div class="mb-3">
+            <label>Role</label>
+            <input @bind="user.Role1" type="text" class="form-control" placeholder="Role" />
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input @bind="user.Password1" type="password" class="form-control" placeholder="pas" />
+        </div>
+        <div class="mb-3">
+            <label>Repeat password</label>
+            <input @bind="CheckPassword" type="password" class="form-control" placeholder="Repeat password" />
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="AddUser" class="btn btn-primary">Register</button>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    private User user = new User();
+    private string CheckPassword;
+
+    private async Task AddUser()
+    {
+        if (user.Password1 != CheckPassword)
+        {
+            var message = $"Пароли не совпадают";
+            await js.InvokeVoidAsync("alert", message);
+        }
+        else
+        {
+            user.Userid = new Random().Next(int.MaxValue);
+
+            try
+            {
+                await UserService.Create(user);
+                navManager.NavigateTo("/", true);
+            }
+            catch
+            {
+                await js.InvokeVoidAsync("alert", "Данные заполнены неверно");
+            }
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+﻿﻿<h3>Profile</h3>
+@page "/user"
+@using WebMag.Auth;
+
+@inject IJSRuntime js
+@inject IUserService UserService
+@inject AuthenticationStateProvider authStateProvider
+
+<h1>Ваш профиль</h1>
+    <AuthorizeView>
+        <Authorized>
+            <h5>Оценки на сайте: @user.Review</h5>
+            <h5>Имя: @user.Login1</h5>
+            <h5>Роль: @user.Role1</h5>
+            <hr />
+        </Authorized>
+    </AuthorizeView>
+
+@code {
+    private User user = new User();
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationState { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        user = await UserService.GetById(Convert.ToInt32(user.Userid));
+    }
+}

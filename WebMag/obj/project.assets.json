@@ -1051,7 +1051,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Domain": "1.0.0",
+          "EmoBase": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
         },
         "compile": {
@@ -1059,26 +1059,13 @@
         },
         "runtime": {
           "bin/placeholder/BusinessLogic.dll": {}
-        }
-      },
-      "Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.dll": {}
         }
       },
       "EmoBase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Domain": "1.0.0",
+          "EmoBase": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
         },
         "compile": {
@@ -3262,11 +3249,6 @@
       "path": "../BusinessLogic/BusinessLogic.csproj",
       "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
     },
-    "Domain/1.0.0": {
-      "type": "project",
-      "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../Domain/Domain.csproj"
-    },
     "EmoBase/1.0.0": {
       "type": "project",
       "path": "../EmoBase/EmoBase.csproj",
@@ -3346,5 +3328,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Обнаружен цикл. \r\n  WebMag -> EmoBase -> EmoBase.",
+      "libraryId": "EmoBase",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

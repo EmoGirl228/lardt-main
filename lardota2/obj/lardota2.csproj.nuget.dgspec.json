@@ -85,10 +85,10 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj",
-        "projectName": "Domain",
+        "projectName": "EmoBase",
         "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Виталик\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\EmoBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Виталик\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,7 +104,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

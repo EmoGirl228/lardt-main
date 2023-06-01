@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "iT/7WWWvFkj58k37kzOLyn0KkJrdtIdM1LK1I5mmR1mV6YT2ibeWum7OqYjLUvNjVskiTJjMoc+SnGvPqmsd/A==",
-  "success": true,
+  "dgSpecHash": "vla+xPaMa/Vq4kTNr7zsxohShH4cp7KeKhPQ73EWAa3beF+FmuWKJFIQCqJRhnwOY4z2rMdD8ZOOxDqAvmT9kQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Виталик\\Desktop\\lardt-main\\LarDt.Tests\\LarDt.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Виталик\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -147,5 +147,15 @@
     "C:\\Users\\Виталик\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Виталик\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Обнаружен цикл. \r\n  LarDt.Tests -> BusinessLogic -> EmoBase -> EmoBase.",
+      "libraryId": "EmoBase",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
